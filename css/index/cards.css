@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+main {
+    width: calc(100wv - (100wv - 100%));
+    min-height: 100vh;
+    margin: 0;
+}
+
+.index-page__cards__main-card {
+    margin: 4%;
+    box-shadow: 3px 3px 3px var(--shadow-color);
+    background-color: var(--smoky-white);
+    padding-bottom: 1.5rem;
+}
+.index-page__main-card__img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.index-page__cards__main-card__title {
+    font-weight: 600;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.index-page__cards__main-card__text {
+    line-height: 1.5rem;
+}
+.index-page__cards__main-card__btn{
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        display: grid;
+    }
+    .index-page__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+        padding: 0 0.8rem;
+    }
+   
+    .index-page__cards__main-card {
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .index-page__main-card__img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+   
+    .index-page__cards__main-card__text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .index-page__cards__main-card__title {
+        
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .index-page__main-card__img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .index-page__cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+        justify-self: center;
+    }
+}
+@media screen and (min-width: 1500px) {
+.index-page__cards {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    justify-self: center;
+}
+
+.index-page__main-card__img{
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+}
+.index-page__cards__main-card__title {
+    font-weight: 600;
+}
+.index-page__cards__main-card__text {
+    line-height: 1.5rem;
+}
+}

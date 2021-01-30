@@ -1,15 +1,14 @@
 .index-page__banner__slogan .btn{
-    display: flex;
-    justify-content: center;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 25px;
     font-family: var(--secondary-font);
     background-color: var(--accent-color);
     color: var(--smoky-white);
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-align: center;
     text-decoration: none;
-    }
+     }
     .index-page__banner__slogan .btn:hover{
             background-color: #b30963;
         }
@@ -17,7 +16,7 @@
 .index-page__cards__main-card__btn>.btn{
     display: flex;
     justify-content: center;
-    padding: 10px 5px;
+    padding: 5px 5px;
     border-radius: 25px;
     font-weight: 500;
     font-family: var(--secondary-font);
@@ -34,19 +33,20 @@
     .index-page__banner__slogan__btn>.btn{
         display: inline-block;
         padding: 15px 60px;
+        margin-right: 100px;
     }
     .index-page__cards__main-card__btn>.btn{
         display: inline-block;
-        padding: 10px 50px;
+        padding: 10px 70px;
     }
 }
 @media screen and (min-width: 992px) {
     .index-page__banner__slogan__btn>.btn{
-        margin-right: 50px;
+        margin-right: 100px;
     }
 }
 @media screen and (min-width: 1200px) {
     .index-page__banner__slogan__btn>.btn{
-        margin-right: 150px;
+        margin-right: 200px;
     }
 }

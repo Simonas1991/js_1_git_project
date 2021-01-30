@@ -1,0 +1,96 @@
+.logo {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.navbar-container {
+  width: 70%;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #04040469;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+
+.navigation-bar ul {
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  float: right;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: var(--smoky-white);
+  font-size: 18px;
+  font-family: var(--primary-font);
+  text-decoration: none;
+  line-height: 100px;
+  padding: 5px 15px;
+}
+
+/* HOME */
+.navbar-item__home::before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: var(--accent-color);
+}
+.navbar-item__home::before {
+  width: 47.5px;
+  bottom: 1px;
+  opacity: 0;
+}
+
+.navbar-item__home:hover::before {
+  bottom: 30px;
+  opacity: 1;
+}
+
+/* ABOUT */
+.navbar-item__about::before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: var(--accent-color);
+}
+.navbar-item__about::before {
+  width: 50px;
+  bottom: 1px;
+  opacity: 0;
+}
+
+.navbar-item__about:hover::before {
+  bottom: 30px;
+  opacity: 1;
+}
+/* CONTACTS */
+.navbar-item__contacts::before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: var(--accent-color);
+}
+.navbar-item__contacts::before {
+  width: 74px;
+  bottom: 1px;
+  opacity: 0;
+}
+
+.navbar-item__contacts:hover::before {
+  bottom: 30px;
+  opacity: 1;
+}

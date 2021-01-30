@@ -1,0 +1,10 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.anchor-fix {
+  padding-top: 100px;
+  margin-top: -100px;
+}

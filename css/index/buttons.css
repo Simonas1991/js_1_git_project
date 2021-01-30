@@ -1,7 +1,7 @@
-.index-page__banner__slogan__btn>.btn{
+.index-page__banner__slogan .btn{
     display: flex;
     justify-content: center;
-    padding: 7px 0;
+    padding: 10px 20px;
     border-radius: 25px;
     font-family: var(--secondary-font);
     background-color: var(--accent-color);
@@ -9,12 +9,15 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
-}
+    }
+    .index-page__banner__slogan .btn:hover{
+            background-color: #b30963;
+        }
 
 .index-page__cards__main-card__btn>.btn{
     display: flex;
     justify-content: center;
-    padding: 7px 0;
+    padding: 10px 5px;
     border-radius: 25px;
     font-weight: 500;
     font-family: var(--secondary-font);
@@ -23,15 +26,18 @@
     letter-spacing: 1px;
     text-decoration: none;
 }
+.index-page__cards__main-card__btn>.btn:hover{
+    background-color: var(--accent-color);
+}
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px){
     .index-page__banner__slogan__btn>.btn{
         display: inline-block;
-        padding: 7px 60px;
+        padding: 15px 60px;
     }
     .index-page__cards__main-card__btn>.btn{
         display: inline-block;
-        padding: 7px 50px;
+        padding: 10px 50px;
     }
 }
 @media screen and (min-width: 992px) {
@@ -41,6 +47,6 @@
 }
 @media screen and (min-width: 1200px) {
     .index-page__banner__slogan__btn>.btn{
-        margin-right: 100px;
+        margin-right: 150px;
     }
 }

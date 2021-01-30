@@ -1,0 +1,24 @@
+.index-page__banner {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../img/Index-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.index-page__banner__slogan {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 4.5vw;
+    color: var(--smoky-white);
+    text-align: center;
+}
+
+.index-page__banner__slogan__btn {
+    text-align: right;
+}

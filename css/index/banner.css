@@ -14,11 +14,17 @@
 }
 
 h1 {
-    font-size: 4.5vw;
+    font-size: 4vw;
     color: var(--smoky-white);
     text-align: center;
 }
 
 .index-page__banner__slogan__btn {
-    text-align: right;
+    text-align: center;
 }
+@media screen and (min-width: 768px){
+    .index-page__banner__slogan__btn {
+        text-align: right;
+        padding-top: 0;
+    }
+    }

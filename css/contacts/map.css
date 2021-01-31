@@ -1,0 +1,9 @@
+#map{
+    background-color: var(--shadow-color);
+}
+
+.map_text{
+    text-align: center;
+    font-style: var(--primary-font);
+    color: var(--smoky-white);
+}
